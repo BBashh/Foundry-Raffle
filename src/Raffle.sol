@@ -45,8 +45,8 @@ contract Raffle is VRFConsumerBaseV2, AutomationCompatibleInterface {
 
     /* Type declarations */
     enum RaffleState {
-        OPEN,
-        CALCULATING
+        OPEN, //0
+        CALCULATING //1
     }
     /* State variables */
     // Chainlink VRF Variables
